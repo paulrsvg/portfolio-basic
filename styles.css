@@ -1,0 +1,64 @@
+/* try out css vars instead of sass $bg: #dcd5cb $cl: #211 */
+
+
+/* bettermfingsite + serif georgia */
+body{
+    font-family: -apple-system,'Georgia','Times New Roman',Times,serif;
+    margin: 2em auto; /*maybe not auto? hmm*/
+    max-width: 40em; /*35 to 40ish em? or maybe 600ish px*/
+    line-height:1.4em;
+    font-size:18px;
+    /* color: #444;
+    background-color: #dcd5cb; */
+    background-color: #fff9f2; /*   //an off white here from the eap wellness thing */
+    color: #002639;  /*   an almost black */
+    padding:0 10px;
+}
+
+/*add some class selectors too? hmm.*/
+
+h1,h2,h3{
+    line-height:1.2em;
+    }
+
+/* this is from glitch */
+/* body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+} */
+
+/*stuff from w3schools nav menu*/
+.menu ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid #002639;
+    text-decoration: none;
+    width: 100%; 
+}
+
+
+
+  
+ .menu ul li {
+    float: left;
+  }
+  
+.menu ul li a {
+    display: block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .menu ul li a:hover:not(.active) {
+    background-color: lightcoral;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+    
