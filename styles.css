@@ -1,11 +1,16 @@
 /* try out css vars instead of sass $bg: #dcd5cb $cl: #211 */
 
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
 
 /* bettermfingsite + serif georgia */
 body{
     font-family: -apple-system,'Georgia','Times New Roman',Times,serif;
+    max-width: 42em;
     margin: 2em auto; /*maybe not auto? hmm*/
-    max-width: 40em; /*35 to 40ish em? or maybe 600ish px*/
     line-height:1.4em;
     font-size:18px;
     /* color: #444;
@@ -15,6 +20,10 @@ body{
     padding:0 10px;
 }
 
+main {
+  
+   /*35 to 40ish em? or maybe 600ish px*/
+}
 /*add some class selectors too? hmm.*/
 
 h1,h2,h3{
@@ -54,11 +63,21 @@ h1,h2,h3{
     text-decoration: none;
   }
   
- .menu ul li a:hover:not(.active) {
+ .menu ul li a:hover {
     background-color: lightcoral;
   }
   
-  .active {
-    background-color: #4CAF50;
-  }
     
+/* media queries */
+@media (max-width: 600px) {
+  
+  .menu ul li {
+    border: 1px solid #002639;
+  }
+  .menu ul li {
+    width: 100%;  
+  }
+
+
+
+}
